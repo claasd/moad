@@ -1,0 +1,12 @@
+openapi: "3.0.2"
+info:
+  title: DEMO API
+  description: >
+    This API can be used to manage users
+
+  version: "1.0"
+
+components:
+    schemas:
+    # moad-mixin:begin:notexistent.yml:components/schemas
+

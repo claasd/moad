@@ -9,7 +9,7 @@ The tool was initially written to share objects between openapi docs if there is
 
 You can place the following comments in one openapi doc:
 ```yaml
-# moad-mixin:begin:test2.yml:components/schemas
+# moad-mixin:begin:other.yml:components/schemas
 # moad-mixin:end
 ```
 
@@ -19,5 +19,12 @@ Usage:
 ```bash
 python -m pip install moat
 python -m moat
+
+```
+
+Cou can only select certain elements from a path
+```yaml
+# moad-mixin:begin:other.yml:components/schemas>address,user
+# moad-mixin:end
 
 ```
